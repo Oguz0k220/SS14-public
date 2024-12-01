@@ -59,7 +59,7 @@
 
 - type: entity
   id: CrateArmoryPistols
-  parent: [ CrateWeaponSecure, BaseSecurityContrabandd ]
+  parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   name: pistols crate
   description: Contains two standard NT pistols with four mags. Requires Armory access to open.
   components:
@@ -72,7 +72,7 @@
 
 - type: entity
   id: CrateSecurityRiot
-  parent: [ CrateWeaponSecure, BaseSecurityContrabandd ]
+  parent: [ CrateWeaponSecure, BaseSecurityContraband ]
   name: swat crate
   description: Contains two sets of riot armor, helmets, shields, and enforcers loaded with beanbags. Extra ammo is included. Requires Armory access to open.
   components:
