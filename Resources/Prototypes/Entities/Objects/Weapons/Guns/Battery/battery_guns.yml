@@ -757,7 +757,7 @@
     heldPrefix: energy
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 40
+    autoRechargeRate: 20
   - type: Tag
     tags:
     - HighRiskItem
