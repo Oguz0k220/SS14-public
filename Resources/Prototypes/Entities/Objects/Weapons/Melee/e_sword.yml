@@ -225,7 +225,7 @@
     - Write
 
 - type: entity
-  parent: [BaseItem, BaseSyndicateContraband]
+  parent: [BaseItem]
   id: EnergyDaggerBox
   name: e-dagger box
   suffix: E-Dagger

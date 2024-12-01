@@ -22,7 +22,7 @@
 
 - type: entity
   name: china lake
-  parent: [BaseWeaponLauncher, BaseGunWieldable, BaseSyndicateContraband]
+  parent: [BaseWeaponLauncher, BaseGunWieldable, BaseMajorContraband]
   id: WeaponLauncherChinaLake
   description: PLOOP.
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   name: RPG-7
-  parent: [ BaseWeaponLauncher, BaseMajorContraband ]
+  parent: [ BaseWeaponLauncher, BaseCentcommContraband ]
   id: WeaponLauncherRocket
   description: A modified ancient rocket-propelled grenade launcher.
   components:

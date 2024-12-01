@@ -34,7 +34,7 @@
 
 - type: entity
   name: holoparasite box
-  parent: [BoxCardboard, BaseSyndicateContraband]
+  parent: [BoxCardboard]
   id: BoxHoloparasite
   description: A box containing a holoparasite injector.
   components:
@@ -50,7 +50,7 @@
 
 - type: entity
   name: holoclown box
-  parent: [BoxCardboard, BaseSyndicateContraband]
+  parent: [BoxCardboard]
   id: BoxHoloclown
   description: A box containing a holoclown injector.
   components:

@@ -125,21 +125,21 @@
   - type: Contraband
     allowedDepartments: [ Security, Science, Command ]
 
-- type: entity
-  id: BaseSecurityEngineeringContraband
-  parent: BaseRestrictedContraband
-  abstract: true
-  components:
-  - type: Contraband
-    allowedDepartments: [ Security, Engineering ]
-
-- type: entity
-  id: BaseSiliconScienceContraband
-  parent: BaseRestrictedContraband
-  abstract: true
-  components:
-  - type: Contraband
-    allowedDepartments: [ Science, Silicon ]
+#- type: entity   #Imperial delete start
+#  id: BaseSecurityEngineeringContraband
+#  parent: BaseRestrictedContraband
+#  abstract: true
+#  components:
+#  - type: Contraband
+#    allowedDepartments: [ Security, Engineering ] 
+#
+#- type: entity
+#  id: BaseSiliconScienceContraband
+#  parent: BaseRestrictedContraband
+#  abstract: true
+#  components:
+#  - type: Contraband
+#    allowedDepartments: [ Science, Silicon ] #Imperial delete end
 
 - type: entity
   id: BaseSecurityCargoContraband
@@ -156,6 +156,30 @@
   components:
   - type: Contraband
     allowedDepartments: [ Medical, Science ]
+
+- type: entity #Imperial add start
+  id: BaseEngineeringCommandContraband
+  parent: BaseRestrictedContraband
+  abstract: true
+  components:
+  - type: Contraband
+    allowedDepartments: [ Engineering, Command ] 
+
+- type: entity 
+  id: BaseSecurityCivilianContraband
+  parent: BaseRestrictedContraband
+  abstract: true
+  components:
+  - type: Contraband
+    allowedDepartments: [ Security, Civilian ] 
+
+- type: entity 
+  id: BaseEngineeringScienceContraband
+  parent: BaseRestrictedContraband
+  abstract: true
+  components:
+  - type: Contraband
+    allowedDepartments: [ Engineering, Science ] #Imperial add end
 
 # for ~objective items
 - type: entity
