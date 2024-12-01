@@ -740,13 +740,13 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: BulletLaserSpread
-    fireCost: 100
+    fireCost: 200
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: BulletLaserSpread
-      fireCost: 100
+      fireCost: 200
     - proto: BulletLaserSpreadNarrow
-      fireCost: 100
+      fireCost: 200
     - proto: BulletDisablerSmgSpread
       fireCost: 100
   - type: Item
@@ -755,6 +755,9 @@
     - 0,0,3,1
     sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 40
   - type: Tag
     tags:
     - HighRiskItem
