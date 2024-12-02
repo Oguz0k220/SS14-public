@@ -2083,3 +2083,7 @@ ent-FoodBreadCotton = Хлопковый хлеб
 ent-AnomalyTrapGravity = инжектор аномалий
 .desc = -
 .suffix = Гравитационная
+
+ent-BulletDisablerSmgSpread = Нелетальный лазерный обстрел
+ent-BulletLaserSpreadNarrow = Точный лазерный обстрел
+ent-BulletLaserSpread = Широкий лазерный обстрел
