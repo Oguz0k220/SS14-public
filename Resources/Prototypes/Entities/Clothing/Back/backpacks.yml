@@ -56,7 +56,7 @@
       collection: IanBark
 
 - type: entity
-  parent: [ClothingBackpack, BaseSecurityContraband]
+  parent: [ClothingBackpack, BaseSecurityContraband] # Imperial contraband fix
   id: ClothingBackpackSecurity
   name: security backpack
   description: It's a very robust backpack.
@@ -65,7 +65,7 @@
     sprite: Clothing/Back/Backpacks/security.rsi
 
 - type: entity
-  parent: [ClothingBackpack, BaseSecurityContraband]
+  parent: [ClothingBackpack, BaseSecurityContraband] # Imperial contraband fix
   id: ClothingBackpackBrigmedic
   name: brigmedic backpack
   description: It's a very sterile backpack.
@@ -269,7 +269,7 @@
 
 #Syndicate
 - type: entity
-  parent: [ClothingBackpack]
+  parent: [ClothingBackpack] # Imperial contraband fix
   id: ClothingBackpackSyndicate
   name: syndicate backpack
   description:
